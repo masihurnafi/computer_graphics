@@ -77,7 +77,7 @@ def main():
 
         # Swap buffers to display the rendered lines
         pygame.display.flip()
-        pygame.time.wait(13)
+        pygame.time.wait(10)
 
     pygame.quit()
 
