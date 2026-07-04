@@ -13,7 +13,7 @@ def draw_branch(ax, x, y, angle, length, depth):
     ax.plot([x, x2], [y, y2], color=color, linewidth=width, solid_capstyle="round")
 
     if depth <= 2:
-        for _ in range(3):
+        for _ in range(2):
             leaf_x = x2 + random.uniform(-3, 3)
             leaf_y = y2 + random.uniform(-1, 3)
             ax.plot(leaf_x, leaf_y, "o", color="#3CB043", markersize=random.uniform(3, 6), alpha=0.8)
