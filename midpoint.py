@@ -79,7 +79,7 @@ def main():
                                  "Midpoint Line & Circle Algorithm (Python)", None, None)
     if not window:
         glfw.terminate()
-        raise RuntimeError("Failed to create GLFW window")
+        raise RuntimeError("Failed to create GLFW window the midpoint")
 
     glfw.make_context_current(window)
 

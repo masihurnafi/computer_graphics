@@ -53,7 +53,7 @@ def main():
     window = glfw.create_window(800, 600, "OpenGL Triangle", None, None)
     if not window:
         glfw.terminate()
-        raise RuntimeError("Failed to create GLFW window")
+        raise RuntimeError("Failed to create GLFW window the triangle")
 
     glfw.make_context_current(window)
 
