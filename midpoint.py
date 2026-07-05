@@ -100,7 +100,7 @@ def main():
         midpoint_line(50, 250, 450, 250)
 
         glColor3f(1.0, 0.0, 0.0)
-        midpoint_circle(250, 250, 150)
+        midpoint_circle(250, 250, 250)
 
         glfw.swap_buffers(window)
 
